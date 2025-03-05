@@ -1,0 +1,35 @@
+### Zadania z Basha i Linuxa – od podstawowych do zaawansowanych#### **Podstawowe**
+1. **Wyświetlanie zawartości katalogu**
+   - Polecenie: `ls`
+   - Zadanie: Wyświetl zawartość kata¸ogu domowego użytkownika i zapisz wynik do pliku `home_contents.txt`.2. **Tworzenie i usuwanie plików**
+   - Polecenie: `touch`, `rm`
+   - Zadanie: Utwórz plik o nazwie `example.txt`, a następnie go usuń.3. **Tworzenie i usuwanie katalogów**
+   - Polecenie: `mkdir`, `rmdir`
+   - Zadanie: Utwórz katalog `projects`, a w nim podkatalog `bash_scripts`. Następnie usuń podkatalog.4. **Kopiowanie i przenoszenie plików**
+   - Polecenie: `cp`, `mv`
+   - Zadanie: Skopiuj plik `example.txt` do katalogu `projects`, a następnie przenieś go do katalogu `bash_scripts`.5. **Wyświetlanie zawartości pliku**
+   - Polecenie: `cat`, `less`, `tail`, `head`
+   - Zadanie: Utwórz plik `log.txt` zawierający 100 linii. Wyświetl pierwsze 10 linii tego pliku.#### **Średnio zaawansowane**
+6. **Liczenie słów w pliku**
+   - Polecenie: `wc`
+   - Zadanie: Policz liczbę linii, słów i znaków w pliku `log.txt`.7. **Wyszukiwanie tekstu w plikach**
+   - Polecenie: `grep`
+   - Zadanie: Wyszukaj wszystkie linie w pliku `log.txt`, które zawierają słowo `error`, i zapisz je do pliku `errors.txt`.8. **Łączenie poleceń przy pomocy rurociągów**
+   - Polecenie: `|`
+   - Zadanie: Wyświetl 5 najczęściej występujących słów w pliku `log.txt`.9. **Tworzenie aliasów**
+   - Polecenie: `alias`
+   - Zadanie: Utwórz alias `ll` dla `ls -la` i przetestuj jego działanie.10. **Znajdowanie plików i katalogów**
+    - Polecenie: `find`
+    - Zadanie: Znajdź wszystkie pliki w katalogu `projects`, które mają rozszerzenie `.sh`.11. **Archiwizowanie i kompresowanie**
+    - Polecenie: `tar`, `gzip`, `gunzip`
+    - Zadanie: Spakuj cały katalog `projects` do pliku `projects.tar.gz` i rozpakuj go w innym miejscu.12. **Zmiana właściciela i uprawnień**
+    - Polecenie: `chown`, `chmod`
+    - Zadanie: Ustaw właściciela pliku `example.txt` na użytkownika `student` oraz nadaj mu prawa do odczytu i zapisu.13. **Tworzenie i usuwanie linków symbolicznych**
+    - Polecenie: `ln`
+    - Zadanie: Utwórz link symboliczny o nazwie `latest_logs` wskazujący na plik `log.txt`. Usuń link.14. **Automatyzacja przy użyciu skryptu Basha**
+    - Zadanie: Napisz skrypt Bash, który:
+      - Tworzy katalog `backup`.
+      - Kopiuje wszystkie pliki `.txt` z bieżącego katalogu do `backup`.
+      - Wyświetla liczbę skopiowanych plików.15. **Monitorowanie procesów i zasobów**
+    - Polecenie: `ps`, `top`, `kill`
+    - Zadanie: Znajdź proces z nazwą `example_process` i zakończ jego działanie.
